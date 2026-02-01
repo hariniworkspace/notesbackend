@@ -17,7 +17,7 @@ connectDB();
 
 const app = express();
 
-// ✅ Proper CORS for your frontend
+
 app.use(cors({
   origin: [
     "https://placement-notes.onrender.com",
